@@ -1,0 +1,32 @@
+.image-head{
+    position: relative;
+    z-index: 1;
+    bottom: 430px;
+}
+.image-head a{
+    text-decoration: none;
+    color: darkmagenta;
+    font-size: larger;
+}
+.shadow{
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+.released-date{
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+.ftr{
+    font-weight: bold;
+}
+.ftr ul{
+    list-style-type: none;
+    padding: 0px;
+}
+.card{
+    background-color: #343a40;
+    color: white;
+}
+.form-control{
+    background-color: #343a40;
+}
