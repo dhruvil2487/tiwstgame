@@ -1,0 +1,62 @@
+.future-gaming{
+    font-weight: 900;
+}
+.future-gaming span{
+    color: blueviolet;
+}
+.future-gaming-button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+.twist{
+    font-weight: bold;
+    color: white;
+    letter-spacing: 10px;
+}
+.twist-text{
+    position: relative;
+    z-index: 1;
+    bottom: 230px;
+}
+.ftr{
+    font-weight: bold;
+}
+.ftr ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.text-background{
+    background-color: rgb(43, 43, 138);
+}
+
+.we-stand-for{
+    border-radius: 20px;
+}
+
+.experiance-passion{
+    border-radius: 20px;
+}
+
+.navbar ul li a.active {
+    color: #fff;
+    border-bottom: 2px solid blue;
+}
+.background-3{
+    background-image: url(pic/card15.jpg);
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: fit-content;
+}
+
+.text-background-3{
+    background-color: rgb(43, 43, 138,0.8);
+    border-radius: 20px;
+}
+.text-background{
+    border-radius: 20px;
+}
