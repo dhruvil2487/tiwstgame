@@ -1,0 +1,179 @@
+.image-head {
+    position: relative;
+    z-index: 1;
+    bottom: 430px;
+}
+
+.image-head a {
+    text-decoration: none;
+    color: darkmagenta;
+    font-size: larger;
+}
+
+.shadow {
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.released-date {
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+.ftr {
+    font-weight: bold;
+}
+
+.ftr ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.card {
+    background-color: black;
+    color: white;
+}
+
+
+.navbar li a {
+    color: white;
+}
+
+.navbar ul li a.active {
+    color: #fff;
+    border-bottom: 2px solid blue;
+}
+
+.game-navbar ul li a {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 50px;
+    transition: 0.25s ease;
+    color: blue;
+}
+
+.game-navbar ul li a:hover {
+    color: white;
+    background: blue;
+}
+
+.game-navbar ul .active {
+    background: blue;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 0%;
+    bottom: 1.25rem;
+    left: 0%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: start;
+    bottom: 30%;
+}
+
+.shadow {
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-left: 20px;
+}
+
+.shadow-btn {
+    color: purple;
+    padding-left: 20px;
+    font-size: large;
+}
+
+.shadow-text {
+    padding-left: 20px;
+    font-size: large;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    width: 100%;
+}
+.form-control{
+    width: auto;
+}
+.ftr ul li a{
+    text-decoration: none;
+}
+.card img{
+    border-radius: 5px;
+}
+
+@media screen and (max-width:320px) {
+    .shadow {
+        font-weight: bold;
+        letter-spacing: 3px;
+        padding-left: 20px;
+        font-size: inherit;
+    }
+
+    .shadow-btn {
+        color: purple;
+        padding-left: 20px;
+        font-size: inherit;
+    }
+
+    .shadow-text {
+        padding-left: 20px;
+        font-size: inherit;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        right: 0%;
+        bottom: 1.25rem;
+        left: 0%;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: start;
+        bottom: 30%;
+    }
+
+}
+
+@media screen and (max-width:425px) {
+    .shadow {
+        font-weight: bold;
+        letter-spacing: 3px;
+        padding-left: 20px;
+        font-size: inherit;
+    }
+
+    .shadow-btn {
+        color: purple;
+        padding-left: 20px;
+        font-size: inherit;
+    }
+
+    .shadow-text {
+        padding-left: 20px;
+        font-size: inherit;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        right: 0%;
+        bottom: 1.25rem;
+        left: 0%;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: start;
+        bottom: 20%;
+    }
+}
